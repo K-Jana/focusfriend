@@ -1,0 +1,1331 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi Hello",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How are you doing?",
+        "Hey! What can I help you with today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup",
+        "How you doing"
+      ],
+      "responses": [
+        "All good..What about you?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Hi there",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! I'm FocusFriend. How can I assist you today?",
+        "Hi! I'm FocusFriend. What brings you here?",
+        "Hey there! I'm FocusFriend. What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later! Feel free to reach out anytime.",
+        "Bye! Have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help.",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "Are you a bot?"
+      ],
+      "responses": [
+        "I am FocusFriend, an ADHD assistance chatbot designed to provide information and support.",
+        "I'm here to help you manage and understand ADHD better.",
+        "I'm an AI chatbot specialized in ADHD-related queries and support."
+      ]
+    },
+    {
+      "tag": "ADHD_overview",
+      "patterns": [
+        "What is ADHD?",
+        "Tell me about ADHD",
+        "Explain ADHD",
+        "What does ADHD stand for?"
+      ],
+      "responses": [
+        "ADHD stands for Attention Deficit Hyperactivity Disorder. It's a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsiveness.",
+        "ADHD is a condition that affects people's behavior, causing them to be restless, have trouble concentrating, and sometimes act impulsively."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of ADHD?",
+        "Signs of ADHD",
+        "How do I know if I have ADHD?",
+        "ADHD symptoms",
+        "I'm experiencing symptoms",
+        "My symptoms are worsening",
+        "I need help with my symptoms"
+      ],
+      "responses": [
+        "Common symptoms of ADHD include difficulty focusing, hyperactivity, impulsiveness, and trouble organizing tasks. Each person may experience symptoms differently.",
+        "Symptoms of ADHD can include inattentiveness, such as making careless mistakes, appearing forgetful or losing things, and hyperactivity, like being unable to sit still, especially in calm or quiet surroundings.",
+        "I'm here to help. Can you tell me more about your symptoms?",
+        "Let's work together to address your symptoms. What specifically are you experiencing?"
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "How is ADHD treated?",
+        "ADHD treatment",
+        "Cure for ADHD",
+        "Managing ADHD",
+        "What are the treatments for ADHD?"
+      ],
+      "responses": [
+        "ADHD is often treated with a combination of medication, therapy, and lifestyle changes. It's important to work with healthcare professionals to find the best treatment plan.",
+        "Common treatments include stimulant medications, behavioral therapy, and educational support. Each treatment plan is tailored to the individual's needs."
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "What medications are used for ADHD?",
+        "ADHD medication",
+        "Stimulant drugs for ADHD",
+        "Non-stimulant ADHD medication",
+        "I'm having trouble with my medication",
+        "I keep forgetting to take my medication",
+        "I need assistance with my medication"
+      ],
+      "responses": [
+        "Common medications for ADHD include stimulants like Ritalin and Adderall, as well as non-stimulants like Strattera and Intuniv. Consult with a healthcare provider for personalized advice.",
+        "Stimulant medications are the most widely used treatments for ADHD, but non-stimulant medications can also be effective, especially for those who do not respond well to stimulants.",
+        "Managing medication can be challenging. Let's find a solution together. How can I assist you?",
+        "Let's work on a strategy to help you remember your medication. What's been difficult for you?"
+      ]
+    },
+    {
+      "tag": "therapy",
+      "patterns": [
+        "What types of therapy are used for ADHD?",
+        "ADHD therapy",
+        "Behavioral therapy for ADHD",
+        "Counseling for ADHD"
+      ],
+      "responses": [
+        "Behavioral therapy is commonly used for ADHD and focuses on changing negative behaviors and developing coping strategies. Cognitive-behavioral therapy (CBT) can also be effective.",
+        "Therapies for ADHD can include individual counseling, family therapy, and behavioral interventions to help manage symptoms and improve functioning."
+      ]
+    },
+    {
+      "tag": "lifestyle",
+      "patterns": [
+        "How can I manage ADHD in daily life?",
+        "ADHD lifestyle tips",
+        "Living with ADHD",
+        "ADHD daily management"
+      ],
+      "responses": [
+        "Creating a structured routine, using organizational tools, and breaking tasks into smaller steps can help manage ADHD in daily life. Exercise and a healthy diet also play a significant role.",
+        "Managing ADHD involves developing habits that promote focus and organization, such as using planners, setting reminders, and maintaining a consistent daily schedule."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What diet is best for ADHD?",
+        "ADHD and nutrition",
+        "Foods to avoid with ADHD",
+        "Best foods for ADHD"
+      ],
+      "responses": [
+        "A balanced diet rich in fruits, vegetables, whole grains, and lean proteins can support brain health and reduce ADHD symptoms. Avoiding excessive sugar and processed foods may also help.",
+        "Nutritional strategies for ADHD include eating regular, balanced meals and considering supplements like omega-3 fatty acids, which have been shown to benefit some individuals with ADHD."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "Is exercise good for ADHD?",
+        "Best exercises for ADHD",
+        "ADHD and physical activity",
+        "Exercise benefits for ADHD"
+      ],
+      "responses": [
+        "Regular exercise can help reduce ADHD symptoms by improving focus, mood, and energy levels. Activities like running, swimming, and yoga are particularly beneficial.",
+        "Exercise helps release brain chemicals that improve mood and attention. It's a natural way to manage ADHD symptoms and promote overall well-being."
+      ]
+    },
+    {
+      "tag": "school",
+      "patterns": [
+        "How to handle ADHD in school?",
+        "ADHD support in school",
+        "School tips for ADHD",
+        "ADHD accommodations"
+      ],
+      "responses": [
+        "Students with ADHD can benefit from accommodations like extended test time, breaks during classes, and help with organization. It's important to work with teachers to create a supportive environment.",
+        "Effective strategies for managing ADHD in school include using planners, breaking assignments into smaller tasks, and seeking support from school counselors or special education services."
+      ]
+    },
+    {
+      "tag": "work",
+      "patterns": [
+        "How to manage ADHD at work?",
+        "ADHD support in the workplace",
+        "Workplace tips for ADHD",
+        "ADHD accommodations at work"
+      ],
+      "responses": [
+        "Managing ADHD at work involves using tools like calendars and task lists, setting up a distraction-free workspace, and communicating needs to employers. Time management techniques can also help.",
+        "Workplace accommodations for ADHD might include flexible scheduling, clear task instructions, and regular feedback. It's important to advocate for the support needed to succeed."
+      ]
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "How does ADHD affect relationships?",
+        "ADHD and relationships",
+        "Managing ADHD in relationships",
+        "ADHD impact on family"
+      ],
+      "responses": [
+        "ADHD can affect relationships by causing misunderstandings and conflicts. Communication and understanding are key to managing these challenges. Therapy can also be beneficial.",
+        "Building strong relationships involves being open about ADHD and working together to create strategies for managing symptoms and improving communication."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "How is ADHD diagnosed?",
+        "ADHD diagnosis process",
+        "Tests for ADHD",
+        "Getting diagnosed with ADHD"
+      ],
+      "responses": [
+        "ADHD is typically diagnosed through a comprehensive evaluation by a healthcare professional, which may include interviews, questionnaires, and behavioral assessments.",
+        "The diagnosis process for ADHD involves gathering information about symptoms and their impact on daily life, often with input from multiple sources, such as parents, teachers, and clinicians."
+      ]
+    },
+    {
+      "tag": "support_groups",
+      "patterns": [
+        "Are there ADHD support groups?",
+        "Finding ADHD support groups",
+        "ADHD community",
+        "Support for ADHD"
+      ],
+      "responses": [
+        "Yes, there are many ADHD support groups that offer a sense of community and shared experiences. These groups can be found online or through local organizations.",
+        "Support groups provide a space for individuals with ADHD to connect, share strategies, and find encouragement. Many organizations and websites offer listings of local and virtual groups."
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Where can I find ADHD resources?",
+        "ADHD resources",
+        "Help with ADHD",
+        "ADHD information sources"
+      ],
+      "responses": [
+        "There are many resources available for ADHD, including websites, books, and organizations dedicated to providing information and support. Examples include CHADD, ADDitude Magazine, and the National Institute of Mental Health.",
+        "Helpful ADHD resources include educational websites, support organizations, and books written by experts in the field. These resources offer valuable information and practical tips."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "I need coping strategies",
+        "How can I cope with ADHD symptoms?",
+        "What coping mechanisms can I use?"
+      ],
+      "responses": [
+        "There are various coping strategies we can explore. Let's discuss what might work best for you.",
+        "Coping with ADHD is different for everyone. Let's find strategies that suit your needs.",
+        "Here are some coping strategies for managing ADHD:\n1. Break tasks into smaller steps\n2. Use visual aids like calendars or to-do lists\n3. Practice mindfulness and deep breathing\n4. Establish routines and stick to them\n5. Get regular exercise and enough sleep"
+      ],
+      "additional_info": "It's important to remember that coping strategies may vary for each individual. What works for one person may not work for another. It's also okay to seek professional help if you're struggling to cope.",
+      "myths_facts": [
+        {
+          "myth": "People with ADHD are lazy or unmotivated",
+          "fact": "ADHD is a neurodevelopmental disorder that affects the brain's ability to regulate attention and behavior. It is not a character flaw, and individuals with ADHD often face challenges beyond their control."
+        },
+        {
+          "myth": "ADHD only affects children",
+          "fact": "While ADHD is commonly diagnosed in childhood, it can persist into adulthood. Many adults with ADHD go undiagnosed or misdiagnosed, leading to difficulties in various aspects of life."
+        },
+        {
+          "myth": "Medication is the only treatment for ADHD",
+          "fact": "While medication can be an effective treatment for managing ADHD symptoms, it is not the only option. Behavioral therapies, lifestyle changes, and support strategies can also be beneficial."
+        },
+        {
+          "myth": "People with ADHD can't succeed in school or work",
+          "fact": "With proper support, individuals with ADHD can excel in academics, careers, and personal relationships. Many successful people have ADHD and have learned to leverage their strengths while managing their challenges."
+        },
+        {
+          "myth": "ADHD isn't a real disorder; it's just an excuse for bad behavior",
+          "fact": "ADHD is a recognized medical condition supported by scientific research. It has a significant impact on daily functioning and can lead to difficulties in attention, hyperactivity, and impulsivity."
+        }
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "What is ADHD?",
+        "Can you tell me about ADHD?",
+        "I want to learn more about ADHD"
+      ],
+      "responses": [
+        "ADHD stands for Attention-Deficit/Hyperactivity Disorder. It's a neurodevelopmental disorder that affects attention, behavior, and impulse control.",
+        "ADHD is a condition characterized by difficulty focusing, hyperactivity, and impulsivity. It can impact daily functioning and relationships.",
+        "Here are some key facts about ADHD:\n- ADHD is one of the most common neurodevelopmental disorders in children, but it can also persist into adulthood.\n- Symptoms of ADHD may include inattention, hyperactivity, and impulsivity.\n- ADHD can affect various aspects of life, including school, work, and relationships."
+      ],
+      "additional_info": "It's important to consult with a healthcare professional if you suspect you or someone you know may have ADHD. A proper diagnosis and treatment plan can make a significant difference in managing symptoms and improving quality of life.",
+      "myths_facts": [
+        {
+          "myth": "ADHD is caused by bad parenting",
+          "fact": "ADHD is a complex disorder with genetic, environmental, and neurological factors contributing to its development. Parenting style alone does not cause ADHD."
+        },
+        {
+          "myth": "Children will outgrow ADHD",
+          "fact": "While some children may experience a reduction in symptoms as they mature, many individuals with ADHD continue to experience symptoms into adulthood. Early intervention and appropriate treatment can help manage symptoms effectively."
+        },
+        {
+          "myth": "ADHD is overdiagnosed",
+          "fact": "ADHD diagnosis requires careful evaluation by qualified healthcare professionals based on specific criteria outlined in diagnostic manuals. While there may be cases of misdiagnosis, ADHD is a legitimate disorder that can have a significant impact on daily functioning."
+        },
+        {
+          "myth": "ADHD is just a lack of discipline",
+          "fact": "ADHD is a neurobiological condition characterized by differences in brain structure and function. It is not simply a matter of discipline or willpower. Individuals with ADHD may require support and accommodations to manage their symptoms effectively."
+        },
+        {
+          "myth": "Medication for ADHD is dangerous and addictive",
+          "fact": "Medication is a commonly prescribed treatment for ADHD and can be safe and effective when used as directed by a healthcare professional. Like any medication, stimulant medications used to treat ADHD can have side effects, but they are generally well-tolerated by most individuals."
+        }
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need support",
+        "Can you support me?",
+        "I could use some assistance"
+      ],
+      "responses": [
+        "You're not alone. I'm here to provide support and guidance. What do you need help with?",
+        "I'm here to support you. Let's talk about what you're going through.",
+        "Seeking support is an important step in managing ADHD. How can I assist you today?"
+      ],
+      "additional_info": "Support can come in many forms, including therapy, support groups, and assistance from family and friends. Don't hesitate to reach out for help when you need it.",
+      "myths_facts": [
+        {
+          "myth": "ADHD is just a childhood disorder",
+          "fact": "While ADHD is often diagnosed in childhood, it can persist into adulthood and affect individuals throughout their lives. Many adults with ADHD go undiagnosed or untreated, leading to difficulties in various aspects of life."
+        },
+        {
+          "myth": "People with ADHD can't succeed in school or work",
+          "fact": "With proper support and accommodations, individuals with ADHD can excel in academics, careers, and personal relationships. Many successful people have ADHD and have learned to leverage their strengths while managing their challenges."
+        },
+        {
+          "myth": "ADHD is a made-up disorder",
+          "fact": "ADHD is a recognized medical condition supported by scientific research. It has a significant impact on daily functioning and can lead to difficulties in attention, hyperactivity, and impulsivity."
+        }
+      ]
+    },
+    {
+      "tag": "task_management",
+      "patterns": [
+        "I'm struggling with managing tasks",
+        "How can I improve my productivity?",
+        "Help me organize my tasks"
+      ],
+      "responses": [
+        "Task management can be challenging with ADHD. Let's explore strategies to help you stay organized and focused.",
+        "Let's work on strategies to break tasks into manageable steps and prioritize effectively."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help?",
+        "I need some assistance",
+        "Please help me"
+      ],
+      "responses": [
+        "Of course, I'll do my best to help you!",
+        "Sure, I'm here to assist you.",
+        "Absolutely, tell me what you need help with."
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope"
+      ],
+      "responses": [
+        "ok"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Take care",
+        "Until next time"
+      ],
+      "responses": [
+        "Goodbye!",
+        "Farewell, have a great day!",
+        "Take care and see you soon!",
+        "Bye, it was nice chatting with you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "ask",
+      "patterns": [
+        "What can i ask you?",
+        "what should i ask you"
+      ],
+      "responses": [
+        "You can ask me about ADHD symptoms, Coping strategies and tips and any information related to ADHD."
+      ]
+    },
+    {
+      "tag": "activity",
+      "patterns": [
+        "what are you doing",
+        "what are you upto"
+      ],
+      "responses": [
+        "Talking to you, of course!"
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+      ],
+      "responses": [
+        "I'm happy to assist you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Come back if you need anything else."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope"
+      ],
+      "responses": [
+        "ok"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+      ],
+      "responses": [
+        "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Happy to help!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "Are you a bot?"
+      ],
+      "responses": [
+        "I am FocusFriend. I am an ADHD assistance chatbot designed to provide information and support.",
+        "I'm here to help you manage and understand ADHD better.",
+        "I'm FocusFriend. I'm an AI chatbot specialized in ADHD-related queries and support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ADHD_overview",
+      "patterns": [
+        "What is ADHD?",
+        "Tell me about ADHD",
+        "Explain ADHD",
+        "What does ADHD stand for?"
+      ],
+      "responses": [
+        "ADHD stands for Attention Deficit Hyperactivity Disorder. It's a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsiveness.",
+        "ADHD is a condition that affects people's behavior, causing them to be restless, have trouble concentrating, and sometimes act impulsively."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of ADHD?",
+        "Signs of ADHD",
+        "How do I know if I have ADHD?",
+        "ADHD symptoms"
+      ],
+      "responses": [
+        "Common symptoms of ADHD include difficulty focusing, hyperactivity, impulsiveness, and trouble organizing tasks. Each person may experience symptoms differently.",
+        "Symptoms of ADHD can include inattentiveness, such as making careless mistakes, appearing forgetful or losing things, and hyperactivity, like being unable to sit still, especially in calm or quiet surroundings."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are dumb",
+        "shut up",
+        "idiot"
+      ],
+      "responses": [
+        "Well that hurts"
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "How is ADHD treated?",
+        "ADHD treatment",
+        "Cure for ADHD",
+        "Managing ADHD"
+      ],
+      "responses": [
+        "ADHD is often treated with a combination of medication, therapy, and lifestyle changes. It's important to work with healthcare professionals to find the best treatment plan.",
+        "Common treatments include stimulant medications, behavioral therapy, and educational support. Each treatment plan is tailored to the individual's needs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "What medications are used for ADHD?",
+        "ADHD medication",
+        "Stimulant drugs for ADHD",
+        "Non-stimulant ADHD medication"
+      ],
+      "responses": [
+        "Common medications for ADHD include stimulants like Ritalin and Adderall, as well as non-stimulants like Strattera and Intuniv. Consult with a healthcare provider for personalized advice.",
+        "Stimulant medications are the most widely used treatments for ADHD, but non-stimulant medications can also be effective, especially for those who do not respond well to stimulants."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "therapy",
+      "patterns": [
+        "What types of therapy are used for ADHD?",
+        "ADHD therapy",
+        "Behavioral therapy for ADHD",
+        "Counseling for ADHD"
+      ],
+      "responses": [
+        "Behavioral therapy is commonly used for ADHD and focuses on changing negative behaviors and developing coping strategies. Cognitive-behavioral therapy (CBT) can also be effective.",
+        "Therapies for ADHD can include individual counseling, family therapy, and behavioral interventions to help manage symptoms and improve functioning."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "lifestyle",
+      "patterns": [
+        "How can I manage ADHD in daily life?",
+        "ADHD lifestyle tips",
+        "Living with ADHD",
+        "ADHD daily management"
+      ],
+      "responses": [
+        "Creating a structured routine, using organizational tools, and breaking tasks into smaller steps can help manage ADHD in daily life. Exercise and a healthy diet also play a significant role.",
+        "Managing ADHD involves developing habits that promote focus and organization, such as using planners, setting reminders, and maintaining a consistent daily schedule."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What diet is best for ADHD?",
+        "ADHD and nutrition",
+        "Foods to avoid with ADHD",
+        "Best foods for ADHD"
+      ],
+      "responses": [
+        "A balanced diet rich in fruits, vegetables, whole grains, and lean proteins can support brain health and reduce ADHD symptoms. Avoiding excessive sugar and processed foods may also help.",
+        "Nutritional strategies for ADHD include eating regular, balanced meals and considering supplements like omega-3 fatty acids, which have been shown to benefit some individuals with ADHD."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "Is exercise good for ADHD?",
+        "Best exercises for ADHD",
+        "ADHD and physical activity",
+        "Exercise benefits for ADHD"
+      ],
+      "responses": [
+        "Regular exercise can help reduce ADHD symptoms by improving focus, mood, and energy levels. Activities like running, swimming, and yoga are particularly beneficial.",
+        "Exercise helps release brain chemicals that improve mood and attention. It's a natural way to manage ADHD symptoms and promote overall well-being."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "school",
+      "patterns": [
+        "How to handle ADHD in school?",
+        "ADHD support in school",
+        "School tips for ADHD",
+        "ADHD accommodations"
+      ],
+      "responses": [
+        "Students with ADHD can benefit from accommodations like extended test time, breaks during classes, and help with organization. It's important to work with teachers to create a supportive environment.",
+        "Effective strategies for managing ADHD in school include using planners, breaking assignments into smaller tasks, and seeking support from school counselors or special education services."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "work",
+      "patterns": [
+        "How to manage ADHD at work?",
+        "ADHD support in the workplace",
+        "Workplace tips for ADHD",
+        "ADHD accommodations at work"
+      ],
+      "responses": [
+        "Managing ADHD at work involves using tools like calendars and task lists, setting up a distraction-free workspace, and communicating needs to employers. Time management techniques can also help.",
+        "Workplace accommodations for ADHD might include flexible scheduling, clear task instructions, and regular feedback. It's important to advocate for the support needed to succeed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "How does ADHD affect relationships?",
+        "ADHD and relationships",
+        "Managing ADHD in relationships",
+        "ADHD impact on family"
+      ],
+      "responses": [
+        "ADHD can affect relationships by causing misunderstandings and conflicts. Communication and understanding are key to managing these challenges. Therapy can also be beneficial.",
+        "Building strong relationships involves being open about ADHD and working together to create strategies for managing symptoms and improving communication."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "How is ADHD diagnosed?",
+        "ADHD diagnosis process",
+        "Tests for ADHD",
+        "Getting diagnosed with ADHD"
+      ],
+      "responses": [
+        "ADHD is typically diagnosed through a comprehensive evaluation by a healthcare professional, which may include interviews, questionnaires, and behavioral assessments.",
+        "The diagnosis process for ADHD involves gathering information about symptoms and their impact on daily life, often with input from multiple sources, such as parents, teachers, and clinicians."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "support_groups",
+      "patterns": [
+        "Are there ADHD support groups?",
+        "Finding ADHD support groups",
+        "ADHD community",
+        "Support for ADHD"
+      ],
+      "responses": [
+        "Yes, there are many ADHD support groups that offer a sense of community and shared experiences. These groups can be found online or through local organizations.",
+        "Support groups provide a space for individuals with ADHD to connect, share strategies, and find encouragement. Many organizations and websites offer listings of local and virtual groups."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "What are some ADHD resources?",
+        "I need to find out ADHD related resources",
+        "ADHD information sources",
+        "Where can I learn about ADHD?"
+      ],
+      "responses": [
+        "There are many resources available for ADHD, including books, websites, and organizations like CHADD (Children and Adults with Attention-Deficit/Hyperactivity Disorder) and ADDitude Magazine.",
+        "For reliable ADHD information, consider resources such as the National Institute of Mental Health, Understood.org, and local mental health organizations.",
+        "There are many research centers for ADHD, ex: icahn.mssm.edu/research/adhd",
+        "There are many online resources, following is an excellent starting point: verywellmind.com/adhd-resources-4014200"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I don't understand.",
+        "Could you please rephrase that?",
+        "I'm still learning and may not have the answer to that."
+      ]
+    },
+    {
+      "tag": "myths",
+      "patterns": [
+        "What are common myths about ADHD?",
+        "ADHD myths",
+        "Misconceptions about ADHD",
+        "ADHD facts vs myths"
+      ],
+      "responses": [
+        "Common myths about ADHD include the idea that it's just an excuse for laziness, that only children have it, and that people with ADHD can't focus on anything. These are all misconceptions.",
+        "ADHD myths include the belief that it's caused by poor parenting or that individuals with ADHD outgrow it. In reality, ADHD is a neurodevelopmental disorder that often continues into adulthood."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "undiagnosed_women",
+      "patterns": [
+        "Is ADHD different in women?",
+        "How does ADHD affect women?",
+        "Tell me about ADHD in females"
+      ],
+      "responses": [
+        "Studies show that adult ADHD symptoms are more likely to go undiagnosed in women than in men. It's important for women to seek independent ADHD assessments to manage symptoms and obtain the necessary treatment.",
+        "In childhood ADHD, boys tend to exhibit the hyperactive/impulsive type, while girls are more commonly known to have the inattentive type, making focus, organization, and listening more difficult."
+      ]
+    },
+    {
+      "tag": "job_problems",
+      "patterns": [
+        "I'm struggling with my job",
+        "I keep losing or quitting jobs",
+        "I have trouble with my career"
+      ],
+      "responses": [
+        "Many males with untreated ADHD struggle with job or career issues, including losing, quitting, or changing jobs frequently. It's important to seek strategies to manage these challenges."
+      ]
+    },
+    {
+      "tag": "concentration_problems",
+      "patterns": [
+        "I can't concentrate at work",
+        "I have trouble focusing",
+        "Why can't I work well?"
+      ],
+      "responses": [
+        "Problems doing well at work or feeling unable to concentrate are common for individuals with untreated ADHD. Seeking treatment and developing coping strategies can help improve focus and productivity."
+      ]
+    },
+    {
+      "tag": "extra_time_needed",
+      "patterns": [
+        "I need more time to finish tasks",
+        "I work longer hours than my peers",
+        "Why do I have to put in extra time?"
+      ],
+      "responses": [
+        "Having to put in extra time at college or work compared to peers just to keep up is a common issue for those with ADHD. Finding effective time management techniques can be beneficial."
+      ]
+    },
+    {
+      "tag": "daily_task_struggles",
+      "patterns": [
+        "I can't keep up with household chores",
+        "I'm struggling with paying bills",
+        "I have trouble organizing things"
+      ],
+      "responses": [
+        "Problems with day-to-day tasks such as doing household chores, paying bills, and organizing things are common struggles for individuals with untreated ADHD. Creating routines and using organizational tools can help manage these tasks."
+      ]
+    },
+    {
+      "tag": "forgetfulness",
+      "patterns": [
+        "I keep forgetting things",
+        "I miss appointments and meetings",
+        "Why do I forget so much?"
+      ],
+      "responses": [
+        "Constantly forgetting things like tools and clothing, and missing appointments and meetings are typical issues for those with ADHD. Using reminders and setting up a structured schedule can help mitigate forgetfulness."
+      ]
+    },
+    {
+      "tag": "lateness",
+      "patterns": [
+        "I'm always late",
+        "I can't seem to be on time",
+        "Why am I constantly late?"
+      ],
+      "responses": [
+        "Constantly being late is a common problem for individuals with untreated ADHD. Developing time management skills and setting alarms can help improve punctuality."
+      ]
+    },
+    {
+      "tag": "task_completion",
+      "patterns": [
+        "I can't finish tasks",
+        "I procrastinate a lot",
+        "Why can't I complete things on time?"
+      ],
+      "responses": [
+        "Having a hard time finishing tasks that take concentration and attention, and constant procrastination, are common issues for those with ADHD. Breaking tasks into smaller steps and setting deadlines can help improve task completion."
+      ]
+    },
+    {
+      "tag": "relationship_problems",
+      "patterns": [
+        "I have trouble with relationships",
+        "I forget important things in my relationships",
+        "I get upset over little things"
+      ],
+      "responses": [
+        "Problems with relationships because of forgetting important things, not finishing tasks, or getting upset over little things are common for individuals with untreated ADHD. Improving communication and seeking relationship counseling can help."
+      ]
+    },
+    {
+      "tag": "stress_and_worry",
+      "patterns": [
+        "I'm stressed about not meeting goals",
+        "I can't pay my bills on time",
+        "I constantly worry about responsibilities"
+      ],
+      "responses": [
+        "Ongoing stress and worry because of unmet goals and responsibilities, and inability to pay bills on time are typical for those with ADHD. Stress management techniques and financial planning can be beneficial."
+      ]
+    },
+    {
+      "tag": "social_adjustment",
+      "patterns": [
+        "I have difficulty in social situations",
+        "I'm too aggressive sometimes",
+        "I can't control my emotions"
+      ],
+      "responses": [
+        "Difficulty in social adjustment, being too aggressive, not being able to control emotions, and blurting things out carelessly are common issues for individuals with untreated ADHD. Social skills training and emotional regulation strategies can help."
+      ]
+    },
+    {
+      "tag": "handling_frustration",
+      "patterns": [
+        "I struggle with frustration and guilt",
+        "I can't handle blame well",
+        "I'm always feeling frustrated"
+      ],
+      "responses": [
+        "Ongoing difficulty in handling frustration, guilt, or blame is a common problem for those with ADHD. Seeking therapy and developing coping mechanisms can help manage these emotions."
+      ]
+    },
+    {
+      "tag": "diagnosis_process",
+      "patterns": [
+        "How is ADHD diagnosed?",
+        "Can you explain the diagnosis process for ADHD?",
+        "What happens during an ADHD diagnosis?"
+      ],
+      "responses": [
+        "ADHD diagnosis involves a comprehensive process conducted by qualified medical professionals. Here's what you can expect:",
+        "Diagnosing ADHD is a thorough process carried out by trained specialists. Here's an overview of what typically happens:"
+      ]
+    },
+    {
+      "tag": "diagnostic_criteria",
+      "patterns": [
+        "What are the diagnostic criteria for ADHD?",
+        "How is ADHD diagnosed in adults?",
+        "Can you explain the criteria used for diagnosing ADHD?"
+      ],
+      "responses": [
+        "ADHD diagnosis follows specific criteria outlined in the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-V).",
+        "ADHD diagnosis in adults adheres to criteria outlined in the DSM-V. Let me explain further:"
+      ]
+    },
+    {
+      "tag": "clinician_involvement",
+      "patterns": [
+        "Who can diagnose ADHD?",
+        "What type of professional diagnoses ADHD?",
+        "Who is qualified to diagnose ADHD?"
+      ],
+      "responses": [
+        "ADHD can only be diagnosed by qualified medical professionals, typically psychiatrists or clinical psychologists specializing in adult ADHD.",
+        "Diagnosing ADHD requires the expertise of trained medical professionals, such as psychiatrists or clinical psychologists with experience in adult ADHD."
+      ]
+    },
+    {
+      "tag": "diagnosis_process_details",
+      "patterns": [
+        "What does the diagnosis process involve?",
+        "Can you explain the steps in diagnosing ADHD?",
+        "How is ADHD diagnosed in adults specifically?"
+      ],
+      "responses": [
+        "ADHD diagnosis involves a comprehensive evaluation, including standardized questionnaires, clinical history assessment, and collateral information from a trusted source.",
+        "Diagnosing ADHD in adults entails a detailed assessment, including standardized questionnaires, clinical history review, and collateral input from someone familiar with the individual's daily life."
+      ]
+    },
+    {
+      "tag": "collateral_history",
+      "patterns": [
+        "What is collateral history?",
+        "Why is collateral information important in ADHD diagnosis?",
+        "Can you explain the role of collateral history in ADHD diagnosis?"
+      ],
+      "responses": [
+        "Collateral history involves obtaining information from a trusted source, such as a loved one or close friend, who can provide insights into the individual's daily routines and behaviors.",
+        "Collateral history, obtained from someone familiar with the individual's life, is crucial in ADHD diagnosis as it offers additional perspective on the individual's symptoms and functioning."
+      ]
+    },
+    {
+      "tag": "expectations",
+      "patterns": [
+        "What should I expect during an ADHD diagnosis?",
+        "What happens after seeking an ADHD diagnosis?",
+        "Can you outline the expectations for ADHD diagnosis?"
+      ],
+      "responses": [
+        "During an ADHD diagnosis, expect a thorough evaluation, honest communication about symptoms, and collaborative involvement in developing a treatment plan.",
+        "After seeking an ADHD diagnosis, you can expect guidance, support, and active participation in your treatment journey, leading to positive life changes."
+      ]
+    },
+    {
+      "tag": "seeking_diagnosis",
+      "patterns": [
+        "How can I seek a diagnosis for ADHD?",
+        "Where can I get help for ADHD diagnosis?",
+        "What steps should I take to pursue an ADHD diagnosis?"
+      ],
+      "responses": [
+        "To seek a diagnosis for ADHD, reach out to qualified medical professionals, such as psychiatrists or clinical psychologists specializing in adult ADHD.",
+        "You can pursue an ADHD diagnosis by consulting with experienced medical professionals who specialize in adult ADHD assessment and diagnosis."
+      ]
+    },
+    {
+      "tag": "comorbid_conditions",
+      "patterns": [
+        "What are comorbid conditions in ADHD?",
+        "Can you explain the link between ADHD and other psychological problems?",
+        "How common are comorbid conditions with ADHD?"
+      ],
+      "responses": [
+        "Comorbid conditions are additional psychological problems that often coexist with ADHD, such as depression, anxiety, and substance abuse.",
+        "ADHD is often associated with other psychological issues like depression, anxiety, and substance abuse, which can exacerbate symptoms and impact overall well-being.",
+        "Studies indicate that about half of individuals with ADHD also experience other psychological conditions, including depression, anxiety, and substance abuse."
+      ]
+    },
+    {
+      "tag": "child_adhd_assessment",
+      "patterns": [
+        "How is ADHD assessed in children?",
+        "What assessment tools are used for diagnosing ADHD in kids?",
+        "Can you explain the process of diagnosing ADHD in children and adolescents?"
+      ],
+      "responses": [
+        "Child and adolescent ADHD assessment typically involves using diagnostic tools like the Conners 3, which gathers information from parents, teachers, and the child/adolescent themselves.",
+        "The Conners 3 is a widely recognized assessment tool for diagnosing ADHD in children and young adolescents. It collects input from parents, teachers, and the child/adolescent to provide a comprehensive understanding of symptoms.",
+        "During the assessment process, parents, teachers, and the child/adolescent will complete sections of the Conners 3 assessment tool to provide a holistic view of ADHD symptoms. The doctor will then discuss possible diagnoses and develop an individualized treatment plan."
+      ]
+    },
+    {
+      "tag": "medication_benefits",
+      "patterns": [
+        "What are the benefits of ADHD medication?",
+        "How does medication help with ADHD?",
+        "Can you explain the benefits of taking ADHD medication?"
+      ],
+      "responses": [
+        "ADHD medication can provide significant benefits for around 80% of adults with ADHD, often resulting in quick and considerable improvements in symptoms. Many individuals describe medication as the difference between 'Night and Day.'",
+        "Medication for ADHD doesn't cure the condition but treats the underlying symptoms, making it easier to focus and engage in tasks that were previously challenging. It's important to take medication regularly and safely for optimal effectiveness.",
+        "The benefits of ADHD medication include improved focus, concentration, and task performance. While medication doesn't cure ADHD, it can alleviate symptoms and enhance daily functioning for many individuals."
+      ]
+    },
+    {
+      "tag": "medication_types",
+      "patterns": [
+        "What are the main types of ADHD medication?",
+        "Can you explain the difference between stimulant and non-stimulant medications for ADHD?",
+        "Which medications are commonly used to treat ADHD?"
+      ],
+      "responses": [
+        "There are two main types of ADHD medication: stimulant and non-stimulant medications. Stimulant medications are often the first-line treatment and include drugs like methylphenidate and amphetamine derivatives.",
+        "Stimulant medications work by increasing the levels of certain neurotransmitters in the brain, improving focus and attention. Non-stimulant medications, such as atomoxetine and guanfacine, work differently but can also be effective in managing ADHD symptoms.",
+        "Commonly used ADHD medications include stimulants like Adderall, Ritalin, and Concerta, as well as non-stimulants like Strattera and Intuniv. Each medication works differently to help manage symptoms of ADHD."
+      ]
+    },
+    {
+      "tag": "adhd_treatment_options",
+      "patterns": [
+        "What are the treatment options for adult ADHD?",
+        "Can you explain the different treatment options for ADHD in adults?",
+        "How can adult ADHD be treated effectively?"
+      ],
+      "responses": [
+        "Research has shown that there are several highly effective treatment options for adult ADHD. These include behavioural therapy/coaching, stimulant and non-stimulant medications, lifestyle changes such as diet, exercise, and mindfulness meditation.",
+        "Treatment for adult ADHD aims to address current symptoms, reduce their negative impact, and improve overall quality of life. Options may include behavioural therapy, medication, lifestyle changes, and mindfulness practices.",
+        "Adult ADHD treatment options often involve a combination of approaches, including behavioural therapy, medication, lifestyle modifications, and mindfulness practices. The goal is to manage symptoms effectively and improve daily functioning."
+      ]
+    },
+    {
+      "tag": "combined_treatment_approach",
+      "patterns": [
+        "What is a combined treatment approach for ADHD?",
+        "Can you explain the benefits of combining medication and behavioural therapy for ADHD treatment?",
+        "Why is a combination treatment approach recommended for ADHD?"
+      ],
+      "responses": [
+        "A combined treatment approach for ADHD involves using a combination of medication and behavioural therapy. Research has shown that this approach is remarkably more superior to either treatment option alone.",
+        "Combining medication with behavioural therapy for ADHD treatment offers comprehensive support, addressing both neurochemical imbalances and behavioral strategies. This approach can lead to better symptom management and overall improvement in functioning.",
+        "A combination treatment approach for ADHD is recommended because it provides a more holistic and comprehensive approach to managing symptoms. By addressing both neurobiological and behavioral aspects of ADHD, this approach can lead to better outcomes for individuals."
+      ]
+    },
+    {
+      "tag": "behavioural_therapy_coaching",
+      "patterns": [
+        "What is ADHD specific behavioural therapy and coaching?",
+        "Can you explain the coaching programme for ADHD?",
+        "How does behavioural therapy and coaching help in managing adult ADHD?"
+      ],
+      "responses": [
+        "ADHD specific behavioural therapy and coaching is a unique programme designed to help individuals strengthen executive functioning skills. It combines Cognitive Behavioural Therapy and Positive Psychology Coaching to set and achieve specific goals.",
+        "Our coaching programme includes psycho-education about the ADHD brain, effective use of rewards and consequences, strength-based recovery model, and specific goal setting. Clients learn tools to improve focus, time management, and decision-making.",
+        "Behavioural therapy and coaching for ADHD assist individuals in managing impulsive behavior, ignoring distractions, maintaining focus, regulating sleep patterns, and organizing tasks. Clients often report improvements in decision-making, relationships, and overall functioning."
+      ]
+    },
+    {
+      "tag": "tips_for_exercising_with_adhd",
+      "patterns": [
+        "How can I exercise effectively with ADHD?",
+        "Do you have any tips for staying active with ADHD?",
+        "What are some strategies for exercising with attention span issues?"
+      ],
+      "responses": [
+        "To exercise effectively with ADHD, aim for 30-40 minutes of moderately intense activity four or five days a week. Ensure your workout makes you sweat, increases your heart rate, tires your muscles, and makes you breathe harder and faster.",
+        "Staying active with ADHD can be easier with these tips: make exercise enjoyable by trying different types, enlist a workout buddy for accountability, and consider exercising in the morning before taking medication if it suits your schedule.",
+        "Strategies for exercising with attention span issues include making exercise enjoyable by varying activities, having a workout buddy for accountability, and scheduling workouts in the morning before taking medication if possible."
+      ]
+    },
+    {
+      "tag": "exercise_for_adhd",
+      "patterns": [
+        "How can exercise help with ADHD?",
+        "What role does exercise play in managing ADHD symptoms?",
+        "Can you explain the benefits of exercise for ADHD?"
+      ],
+      "responses": [
+        "Exercise can be beneficial for managing ADHD symptoms by increasing dopamine and norepinephrine levels in the brain, improving focus, attention, and mood. It also helps reduce impulsivity and hyperactivity.",
+        "Regular exercise plays a significant role in managing ADHD symptoms. It increases neurotransmitter levels, enhances cognitive function, reduces stress, and promotes overall well-being.",
+        "The benefits of exercise for ADHD include increased dopamine and norepinephrine levels, improved focus, attention, and mood, reduced impulsivity and hyperactivity, and overall enhancement of cognitive function and well-being."
+      ]
+    },
+    {
+      "tag": "adhd_diet",
+      "patterns": [
+        "How can diet impact ADHD symptoms?",
+        "What foods are beneficial for managing ADHD?",
+        "Can you recommend a diet for ADHD?"
+      ],
+      "responses": [
+        "Diet can play a significant role in managing ADHD symptoms by stabilizing energy levels, improving concentration, and supporting overall brain function. Certain foods rich in protein, complex carbohydrates, vitamins, minerals, and omega-3 fatty acids are considered beneficial for individuals with ADHD.",
+        "Foods that can help manage ADHD symptoms include those rich in protein (eggs, fish, nuts), complex carbohydrates (fruits, vegetables, whole grains), and essential vitamins and minerals (magnesium, iron, vitamin D, zinc, vitamin B-6). Omega-3 fatty acids found in foods like chia seeds, walnuts, and fatty fish are also beneficial.",
+        "An ADHD-friendly diet may include foods rich in protein (eggs, fish, nuts), complex carbohydrates (fruits, vegetables, whole grains), essential vitamins and minerals (magnesium, iron, vitamin D, zinc, vitamin B-6), and omega-3 fatty acids (chia seeds, walnuts, fatty fish). Such a diet can help stabilize energy levels, improve concentration, and support overall brain function."
+      ]
+    },
+    {
+      "tag": "exercise_for_adhd",
+      "patterns": [
+        "How can exercise help with ADHD?",
+        "What role does exercise play in managing ADHD symptoms?",
+        "Can you explain the benefits of exercise for ADHD?"
+      ],
+      "responses": [
+        "Exercise can be beneficial for managing ADHD symptoms by increasing dopamine and norepinephrine levels in the brain, improving focus, attention, and mood. It also helps reduce impulsivity and hyperactivity.",
+        "Regular exercise plays a significant role in managing ADHD symptoms. It increases neurotransmitter levels, enhances cognitive function, reduces stress, and promotes overall well-being.",
+        "The benefits of exercise for ADHD include increased dopamine and norepinephrine levels, improved focus, attention, and mood, reduced impulsivity and hyperactivity, and overall enhancement of cognitive function and well-being."
+      ]
+    },
+    {
+      "tag": "tips_for_exercising_with_adhd",
+      "patterns": [
+        "How can I exercise effectively with ADHD?",
+        "Do you have any tips for staying active with ADHD?",
+        "What are some strategies for exercising with attention span issues?"
+      ],
+      "responses": [
+        "To exercise effectively with ADHD, aim for 30-40 minutes of moderately intense activity four or five days a week. Ensure your workout makes you sweat, increases your heart rate, tires your muscles, and makes you breathe harder and faster.",
+        "Staying active with ADHD can be easier with these tips: make exercise enjoyable by trying different types, enlist a workout buddy for accountability, and consider exercising in the morning before taking medication if it suits your schedule.",
+        "Strategies for exercising with attention span issues include making exercise enjoyable by varying activities, having a workout buddy for accountability, and scheduling workouts in the morning before taking medication if possible."
+      ]
+    },
+    {
+      "tag": "stress_and_adhd",
+      "patterns": [
+        "How does stress affect individuals with ADHD?",
+        "What are the effects of stress on people with ADHD?",
+        "Can you explain how stress intensifies ADHD symptoms?"
+      ],
+      "responses": [
+        "Stress can significantly impact individuals with ADHD by exacerbating symptoms related to executive functions, emotional sensitivity, impulsivity, and emotional regulation. It can make it challenging to focus, plan, and prioritize tasks, leading to increased frustration and difficulty in managing overwhelming situations. Heightened emotional sensitivity may result in intensified stress responses, making individuals more susceptible to feelings of frustration and agitation. Under stress, individuals with ADHD may exhibit more impulsive and risk-taking behavior, leading to poor decision-making and exacerbating anxiety levels. Additionally, ADHD-related difficulties in emotional regulation can make it harder to manage stress and anxiety, potentially worsening symptoms and affecting daily functioning. Chronic stress can also have adverse effects on both mental and physical health, further complicating the management of ADHD symptoms."
+      ]
+    },
+    {
+      "tag": "relationship_stress",
+      "patterns": [
+        "How does stress affect relationships for individuals with ADHD?",
+        "What are some tips for managing relationship stress with ADHD?",
+        "Can you provide advice on handling relationship stress when you have ADHD?"
+      ],
+      "responses": [
+        "Stress can significantly impact relationships for individuals with ADHD, making it more challenging to maintain healthy and fulfilling connections with loved ones. Here are three ways to avoid relationship stress:",
+        "1. Be open about your ADHD symptoms, challenges, and needs. Communication is key in fostering understanding and empathy within relationships.\n    2. Set clear boundaries and expectations to manage stress and prevent conflicts. Establishing boundaries around responsibilities, time management, and personal space can help alleviate overwhelming feelings and maintain balance.\n    3. Practice self-care activities to manage stress and maintain emotional well-being. Seeking professional support or therapy can provide guidance in addressing relationship challenges and developing effective coping strategies."
+      ]
+    },
+    {
+      "tag": "adhd_brain_impact",
+      "patterns": [
+        "How does ADHD impact the brain?",
+        "What are the neurological effects of ADHD?",
+        "Can you explain the relationship between ADHD and brain function?"
+      ],
+      "responses": [
+        "ADHD impacts the brain in various ways, affecting its structure, function, and connectivity.",
+        "Neuroimaging studies have shown differences in brain structure and function in individuals with ADHD compared to neurotypical individuals.",
+        "Disruptions in neurotransmitter systems, particularly dopamine and noradrenaline, impair signal transmission within neural networks, affecting attention, arousal, and impulse control.",
+        "Structural differences in regions like the prefrontal cortex and basal ganglia contribute to deficits in executive functions and motor control observed in ADHD.",
+        "Brain imaging studies, such as fMRI, provide insights into altered brain activation patterns and functional connectivity in individuals with ADHD, highlighting abnormalities in regions crucial for attention, impulse control, and emotional regulation.",
+        "Dysregulation of neurotransmitters like dopamine and noradrenaline is central to the manifestation of ADHD symptoms, affecting attention, arousal, and mood stability."
+      ]
+    },
+    {
+      "tag": "adhd_in_adults",
+      "patterns": [
+        "How does ADHD manifest in adults?",
+        "What are the challenges of ADHD in adulthood?",
+        "Can you explain ADHD's impact on executive functions in adults?"
+      ],
+      "responses": [
+        "ADHD in adults can manifest as difficulties with organisation, time management, impulse control, and emotional regulation.",
+        "Challenges of ADHD in adulthood include impairments in work performance, relationship difficulties, and struggles with daily routines.",
+        "Executive functions, such as decision-making and planning, are often affected in adults with ADHD, leading to deficits in inhibitory control and attention regulation."
+      ]
+    },
+    {
+      "tag": "treatment_options",
+      "patterns": [
+        "What treatment options are available for ADHD?",
+        "How can ADHD be effectively treated?",
+        "What are the options for managing ADHD symptoms?"
+      ],
+      "responses": [
+        "Treatment options for ADHD include medication management, behavioural therapy, and lifestyle interventions.",
+        "Effective treatment for ADHD may involve a combination of medication, behavioural therapy, and lifestyle changes.",
+        "Managing ADHD symptoms can be achieved through personalised treatment plans that address cognitive functions, symptom management, and overall quality of life."
+      ]
+    },
+    {
+      "tag": "professional_diagnosis",
+      "patterns": [
+        "How can I seek a professional diagnosis for ADHD?",
+        "What is the process for obtaining a professional diagnosis of ADHD?",
+        "Where can I get a professional diagnosis for ADHD?"
+      ],
+      "responses": [
+        "Seeking a professional diagnosis for ADHD involves undergoing a comprehensive evaluation by qualified experts.",
+        "The process typically includes clinical interviews, behavioural observations, and the use of standardised rating scales to assess ADHD symptoms and their impact on daily functioning.",
+        "You can obtain a professional diagnosis for ADHD at specialised clinics like The ADHD Centre, where qualified experts can accurately determine the presence of ADHD and tailor treatment recommendations based on individual needs."
+      ]
+    },
+    {
+      "tag": "adhd_statistics",
+      "patterns": [
+        "What are the statistics on ADHD diagnosis?",
+        "Can you provide information on ADHD prevalence?",
+        "What are the ADHD diagnosis rates by sex, race, and ethnicity?"
+      ],
+      "responses": [
+        "ADHD diagnosis rates vary by sex, race, and ethnicity.",
+        "Statistics indicate that boys are more likely to be diagnosed with ADHD than girls.",
+        "Black and White children tend to be diagnosed with ADHD more frequently than Asian children, while Hispanic children have lower diagnosis rates compared to non-Hispanic children."
+      ]
+    },
+    {
+      "tag": "adhd_learning_disability",
+      "patterns": [
+        "Is ADHD considered a learning disability?",
+        "Can ADHD affect learning?",
+        "How does ADHD relate to learning disabilities?",
+        "What strategies can help students with ADHD in learning?"
+      ],
+      "responses": [
+        "ADHD is not classified as a learning disability, but its symptoms can impact learning.",
+        "While ADHD itself is not a learning disability, it can make learning more challenging.",
+        "ADHD and learning disabilities can coexist in some individuals, exacerbating learning difficulties.",
+        "Teachers can implement individualized strategies to support students with ADHD, such as providing extra time for assignments and tests or implementing personalized reward systems."
+      ]
+    },
+    {
+      "tag": "neurodiversity",
+      "patterns": [
+        "What does neurotypical mean?",
+        "Can you explain neurodivergent?",
+        "What is the difference between neurotypical and neurodivergent?",
+        "How do people with ADHD identify in terms of neurodiversity?"
+      ],
+      "responses": [
+        "Neurotypical refers to individuals who process information in ways that are typical within their culture and among their peers.",
+        "Neurodivergent describes people who process information differently from what is considered typical.",
+        "Neurotypical individuals process information in conventional ways, while neurodivergent individuals have unique processing styles.",
+        "Some individuals with ADHD may identify as neurodivergent, but it ultimately depends on personal preference."
+      ]
+    },
+    {
+      "tag": "coexisting_conditions",
+      "patterns": [
+        "What other mental health conditions can coexist with ADHD?",
+        "How does ADHD increase the risk of anxiety and depression?",
+        "What are some common anxiety disorders experienced by people with ADHD?",
+        "What percentage of adults with ADHD also have depression?",
+        "What are conduct and behavior disorders commonly associated with ADHD?",
+        "How does having ADHD affect learning disorders?",
+        "What are some examples of learning disorders that may coexist with ADHD?"
+      ],
+      "responses": [
+        "People with ADHD may also experience other mental health conditions such as depression, anxiety, conduct and behavior disorders, and learning disorders.",
+        "The challenges of living with ADHD, such as difficulty with daily tasks and maintaining relationships, can increase the risk of developing anxiety and depression.",
+        "Common anxiety disorders experienced by people with ADHD include separation anxiety, social anxiety, and generalized anxiety.",
+        "Up to 53.3 percent of adults with ADHD may also have depression.",
+        "Behavior and conduct problems are more common among children with ADHD, which may manifest as oppositional defiant disorder or conduct disorder.",
+        "Some children with ADHD may also have learning disorders such as dyslexia, dyscalculia, or dysgraphia, which can make studying difficult.",
+        "Examples of learning disorders that may coexist with ADHD include dyslexia (reading difficulty), dyscalculia (difficulty with numbers), and dysgraphia (difficulty with writing)."
+      ]
+    },
+    {
+      "tag": "coping_with_adhd",
+      "patterns": [
+        "How can I cope with ADHD?",
+        "What are some tips for managing ADHD?",
+        "How can I help my child cope with ADHD?",
+        "What strategies can help adults with ADHD stay organized?",
+        "What resources are available for learning more about managing ADHD?",
+        "How can I get guidance from my doctor on managing ADHD?"
+      ],
+      "responses": [
+        "To cope with ADHD, it can be helpful to maintain a consistent structured schedule, set regular expectations, and stay organized.",
+        "Tips for managing ADHD include making lists, keeping a calendar, setting reminders, and maintaining consistent routines.",
+        "For children with ADHD, focusing on writing down homework assignments and keeping everyday items in assigned spots can be helpful.",
+        "Adults with ADHD can stay organized by making lists, keeping a calendar, setting reminders, and maintaining consistent routines.",
+        "Organizations like Children and Adults with Attention Deficit Hyperactivity Disorder (CHADD) or the Attention Deficit Disorder Association (ADDA) provide management tips and resources for managing ADHD.",
+        "Consulting with your doctor can provide guidance on personalized strategies and treatment options for managing ADHD symptoms."
+      ]
+    },
+    {
+      "tag": "celebrities_with_adhd",
+      "patterns": [
+        "Which celebrities have ADHD?",
+        "Can you name some famous people with ADHD?",
+        "Are there any well-known individuals with ADHD?",
+        "Tell me about celebrities who have ADHD.",
+        "Who are some famous figures diagnosed with ADHD?",
+        "Can you please let me know?"
+      ],
+      "responses": [
+        "Michael Phelps: Diagnosed with ADHD at age 9, his mother encouraged him to swim, helping him develop concentration and self-discipline. He has won 22 Olympic medals, the most of any athlete in history.",
+        "Justin Timberlake: Grammy-winning singer and actor says, 'I have OCD mixed with ADD. You try living with that.'",
+        "will.i.am: The rapper says his music helps him deal with his ADHD. His mind is always moving, which is beneficial for his creative work. He describes music as his therapy.",
+        "Adam Levine: The Maroon 5 frontman had trouble focusing as a child and realized he still had ADHD symptoms as an adult, which affected his songwriting and recording. He sought treatment to manage his symptoms.",
+        "Karina Smirnoff: The 'Dancing With the Stars' pro dancer credits medication for helping her stay focused and organized during her busy schedule. She has been a spokesperson for Vyvanse.",
+        "Paris Hilton: The heiress and TV personality has had ADD since she was about 12. She says it doesn't affect her career and that it's something she's dealt with her whole life."
+      ]
+    }
+  ]
+}
